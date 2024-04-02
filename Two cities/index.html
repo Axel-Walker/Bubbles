@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="./images/bobalogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *,
+        html {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            background: url(./images/cafebg.avif) center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img src="./images/bobalogo.png" alt="logo" id="logo">
+        <ul id="menu">
+            <a href="index.html"><li style="color:rgb(245, 212, 140)">Home</li></a>
+            <a href="options.html">
+                <li>Menu</li>
+            </a>
+            <a href="locations.html">
+                <li>Locations</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <h3>Famous Cities of the World</h3>
+        <div class="slide-container">
+            <span id="slide-image-1"> </span>
+            <span id="slide-image-2"> </span>
+            <span id="slide-image-3"> </span>
+            <span id="slide-image-4"></span>
+            <span id="slide-image-5"></span>
+            <div class="image-container">
+                <img src="./images/1.jpg" class="slide-image" alt="photo1">
+                <img src="./images/2.jpeg" class="slide-image" alt="photo2">
+                <img src="./images/3.jpeg" class="slide-image" alt="photo3">
+                <img src="./images/4.jpeg" class="slide-image" alt="photo4">
+                <img src="./images/5.jpg" class="slide-image" alt="photo5">
+            </div>
+            <div class="button-container">
+                <a href="#slide-image-1" class="slide-button"></a>
+                <a href="#slide-image-2" class="slide-button"></a>
+                <a href="#slide-image-3" class="slide-button"></a>
+                <a href="#slide-image-4" class="slide-button"></a>
+                <a href="#slide-image-5" class="slide-button"></a>
+            </div>
+        </div>
+    </div>
+    <footer>copyright &copy; 2023 Dreamweaver Course</footer>
+</body>
+
+</html>
